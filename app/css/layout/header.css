@@ -1,0 +1,66 @@
+header {
+    background: var(--grayish-black);
+    padding: 35px 0;
+    position: relative;
+    border: none;
+}
+
+header,
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header--hamburger,
+.header--hamburger img {
+    background: var(--grayish-black);
+    border: none;
+    height: 15px;
+    width: auto;
+}
+
+#header--logo {
+    height: 25px;
+    width: 143px;
+}
+
+#header--cart {
+    height: fit-content;
+    width: fit-content;
+    border: none;
+    background: transparent;
+}
+
+#header--cart img {
+    height: 20px;
+    width: 23px;
+}
+
+header::after {
+    position: absolute;
+    content: "";
+    height: 1px;
+    background: var(--gray);
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.header--nav-main a {
+    font-family: 'Manrope', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    text-transform: uppercase;
+    line-height: 25px;
+    letter-spacing: 2px;
+    color: var(--white);
+    margin-left: 34px;
+    transition: color 1s ease-in-out;
+}
+
+.header--nav-main a:hover,
+.header--nav-main a:active {
+    color: var(--brown);
+}

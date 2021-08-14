@@ -1,0 +1,67 @@
+/*--------------------------------------*/
+
+
+/* BREAKPOINTS DOWN */
+
+
+/*--------------------------------------*/
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+    .container {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {}
+
+
+/* Extra large devices (large laptops and desktops, 1400px and up) */
+
+@media only screen and (min-width: 1200px) {
+    .container {
+        margin-left: 165px;
+        margin-right: 165px;
+    }
+}
+
+@media only screen and (min-width: 1400px) {}
+
+
+/*--------------------------------------*/
+
+
+/* BREAKPOINTS UP */
+
+
+/*--------------------------------------*/
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 599px) {}
+
+
+/* Small devices (portrait tablets and large phones, 767px and down) */
+
+@media only screen and (max-width: 767px) {}
+
+
+/* Medium devices (landscape tablets, 991px and down) */
+
+@media only screen and (max-width: 991px) {}
+
+@media only screen and (max-width: 1199px) {}
+
+@media only screen and (max-width: 1399px) {}
