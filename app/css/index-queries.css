@@ -9,22 +9,182 @@
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 
-@media only screen and (min-width: 600px) {}
+@media only screen and (min-width: 600px) {
+    /*ZX7 SPEAKER*/
+    .zx7-speaker .container {
+        padding: 101px 62px;
+        background: url("../../assets/home/tablet/image-speaker-zx7.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+}
 
 
 /* Medium devices (landscape tablets, 768px and up) */
 
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+    /* PRODUCT HEADPHONES */
+    .headphones {
+        background-image: url("../../assets/home/tablet/image-header.jpg");
+        padding: 126px 155px 167px 155px;
+        background-size: cover;
+    }
+    .headphones--info {
+        padding: 0;
+    }
+    .headphones--info .overline {
+        margin-bottom: 24px;
+    }
+    .headphones--info h1 {
+        margin-bottom: 24px;
+    }
+    .headphones--info p.body.font--dark-gray {
+        margin-bottom: 55px;
+    }
+    /* SHOP */
+    .shop {
+        padding: 148px 0 96px 0;
+    }
+    .shop .container,
+    .shop {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .shop--card {
+        flex-grow: 1;
+        margin-left: 10px;
+        margin-bottom: 0;
+    }
+    .shop--card:first-of-type {
+        margin-left: 0;
+    }
+    /*ZX9 SPEAKER*/
+    .zx9-speaker .container {
+        padding-top: 52px;
+        padding-bottom: 64px;
+        margin-bottom: 32px;
+    }
+    .zx9-speaker .container img {
+        margin-bottom: 64px;
+        height: 237px;
+        width: auto;
+    }
+    .zx9-speaker .container .body {
+        margin: 0 170px 40px 170px;
+    }
+    /*ZX7 SPEAKER*/
+    .zx7-speaker .container {
+        margin-bottom: 32px;
+    }
+}
 
 
 /* Large devices (laptops/desktops, 992px and up) */
 
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+    /* PRODUCT HEADPHONES */
+    .headphones {
+        background-image: url("../../assets/home/desktop/image-hero.jpg");
+        padding: 128px 0px 158px 13px;
+        background-size: cover;
+        background-position: 0 100%;
+    }
+    .headphones--info {
+        align-items: flex-start;
+        width: 350px;
+    }
+    .headphones--info h1 {
+        text-align: left;
+    }
+    .headphones--info p.body.font--dark-gray {
+        text-align: left;
+    }
+    /* SHOP */
+    .shop {
+        padding: 200px 0 168px 0;
+    }
+    .shop--card {
+        flex-grow: 1;
+        margin-left: 30px;
+        margin-bottom: 0;
+    }
+    .shop--card:first-of-type {
+        margin-left: 0;
+    }
+    /*ZX9 SPEAKER*/
+    .zx9-speaker .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-bottom: 0;
+        padding-left: 0;
+        padding-right: 0;
+        margin-bottom: 48px;
+    }
+    .zx9-speaker--info {
+        align-items: flex-start;
+        width: 350px;
+        margin-right: 95px;
+        margin-bottom: 50px;
+    }
+    .zx9-speaker .container .zx9-speaker--info h1 {
+        text-align: left;
+    }
+    .zx9-speaker .container .zx9-speaker--info .body {
+        margin: 0 0 40px 0;
+        text-align: left;
+    }
+    .zx9-speaker .container img {
+        margin-bottom: 0;
+        align-self: flex-end;
+        height: 360px;
+        width: auto;
+        margin-left: 50px;
+    }
+    /*ZX7 SPEAKER*/
+    .zx7-speaker .container {
+        padding: 101px 95px;
+        background: url("../../assets/home/desktop/image-speaker-zx7.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    /*ZX7 SPEAKER*/
+    .zx7-speaker .container {
+        margin-bottom: 48px;
+    }
+}
 
 
 /* Extra large devices (large laptops and desktops, 1400px and up) */
 
-@media only screen and (min-width: 1400px) {}
+@media only screen and (min-width: 1400px) {
+    /*ZX9 SPEAKER*/
+    .zx9-speaker .container {
+        padding-top: 0;
+    }
+    .zx9-speaker--info {
+        margin-top: 133px;
+        margin-bottom: 124px;
+    }
+    .zx9-speaker .container img {
+        height: 493px;
+        width: auto;
+        margin-left: 115px;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    /* PRODUCT HEADPHONES */
+    .headphones {
+        background: url("../../assets/home/desktop/image-hero.jpg");
+        padding: 128px 0px 158px 13px;
+        background-size: 85%;
+        background-position: 50% 70%;
+    }
+}
 
 
 /*--------------------------------------*/

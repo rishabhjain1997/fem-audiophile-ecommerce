@@ -1,323 +1,368 @@
-    @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap');
-    /* 01 COLORS */
-    
-     :root {
-        --brown: hsl(22, 65%, 57%);
-        --black: hsl(0, 0%, 0%);
-        --grayish-black: hsl(0, 0%, 6%);
-        --dark-gray: hsl(0, 0%, 45%);
-        --gray: hsl(0, 0%, 55%);
-        --light-gray: hsl(0, 0%, 81%);
-        --dark-grayish-white: hsl(0, 0%, 95%);
-        --light-grayish-white: hsl(0, 0%, 98%);
-        --pink: #CD2C2C;
-        --dark-brown: hsl(21, 94%, 75%);
-        --white: hsl(0, 0%, 100%);
-    }
-    /*Regular 400, Medium 500, Semi-Bold 600, Bold 700, etc.*/
-    /*--------------------------------------*/
-    /* BASIC COMPONENTS */
-    /*--------------------------------------*/
-    
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: 'Manrope', sans-serif;
-    }
-    
-    html,
-    body {
-        text-rendering: optimizeLegibility;
-        overflow-x: hidden;
-    }
-    /*02 TYPOGRAPHY*/
-    
-    body {
-        font-family: 'Manrope', sans-serif;
-        font-size: 15px;
-        line-height: 25px;
-        font-weight: 500;
-        color: var(--black);
-    }
-    
-    h1 {
-        font-family: 'Manrope', sans-serif;
-        font-size: 56px;
-        line-height: 58px;
-        letter-spacing: 2px;
-        text-transform: uppercase;
-        font-weight: bold;
-        color: var(--black);
-    }
-    
-    h2 {
-        font-family: 'Manrope', sans-serif;
-        font-weight: bold;
-        font-size: 40px;
-        text-transform: uppercase;
-        line-height: 44px;
-        letter-spacing: 1.5px;
-        color: var(--black);
-    }
-    
-    h3 {
-        font-family: 'Manrope', sans-serif;
-        font-weight: bold;
-        font-size: 32px;
-        text-transform: uppercase;
-        line-height: 36px;
-        letter-spacing: 1.15px;
-        color: var(--black);
-    }
-    
-    h4 {
-        font-family: 'Manrope', sans-serif;
-        font-weight: bold;
-        font-size: 28px;
-        text-transform: uppercase;
-        line-height: 38px;
-        letter-spacing: 2px;
-        color: var(--black);
-    }
-    
-    h5 {
-        font-family: 'Manrope', sans-serif;
-        font-weight: bold;
-        font-size: 24px;
-        text-transform: uppercase;
-        line-height: 33px;
-        letter-spacing: 1.7px;
-        color: var(--black);
-    }
-    
-    h6 {
-        font-family: 'Manrope', sans-serif;
-        font-weight: bold;
-        font-size: 18px;
-        text-transform: uppercase;
-        line-height: 24px;
-        letter-spacing: 1.3px;
-        color: var(--black);
-    }
-    
-    .overline {
-        font-family: 'Manrope', sans-serif;
-        font-weight: 400;
-        font-size: 14px;
-        text-transform: uppercase;
-        line-height: 19px;
-        letter-spacing: 10px;
-        color: var(--brown);
-    }
-    
-    .sub-title {
-        font-family: 'Manrope', sans-serif;
-        font-weight: bold;
-        font-size: 13px;
-        text-transform: uppercase;
-        line-height: 25px;
-        letter-spacing: 1px;
-        color: var(--brown);
-    }
-    /* 03 BUTTONS */
-    
-    .button-1,
-    .button-2 {
-        font-family: 'Manrope', sans-serif;
-        padding: 15px 30px;
-        border: none;
-        border-radius: 0;
-        text-transform: uppercase;
-        font-weight: bold;
-        font-size: 13px;
-        transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out, border 0.5s ease-in-out;
-    }
-    
-    .button-1 {
-        background-color: var(--brown);
-        color: var(--white);
-    }
-    
-    .button-1:hover {
-        background-color: var(--dark-brown);
-        color: var(--white);
-    }
-    
-    .button-2 {
-        background-color: var(--white);
-        border: 1px solid var(--black);
-    }
-    
-    .button-2:hover {
-        background-color: var(--black);
-        color: var(--white);
-    }
-    
-    .button-3 {
-        font-family: 'Manrope', sans-serif;
-        text-transform: uppercase;
-        position: relative;
-        color: var(--gray);
-        background-color: transparent;
-        border: none;
-        font-weight: bold;
-        font-size: 13px;
-        cursor: pointer;
-    }
-    
-    .button-3::after {
-        content: url('../../assets/shared/desktop/icon-arrow-right.svg');
-        position: absolute;
-        top: 1px;
-        right: -14px;
-        height: 13px;
-        transition: color 0.5s ease-in-out
-    }
-    
-    .button-3:hover {
-        color: var(--brown);
-    }
-    /* 04 FORM ELEMENTS */
-    /* Text Input */
-    
-    .form--text-input label {
-        display: block;
-        font-weight: 600;
-        font-size: 12px;
-    }
-    
-    .form--text-input input[type=text]::placeholder {
-        color: var(--gray);
-    }
-    
-    .form--text-input input[type=text] {
-        padding: 18px 24px;
-        box-sizing: border-box;
-        font-weight: bold;
-        border: 1px solid var(--light-gray);
-        border-radius: 8px;
-        font-size: 14px;
-    }
-    
-    .form--text-input input[type=text]:focus {
-        border: 1px solid var(--dark-brown);
-        outline: none;
-        caret-color: var(--dark-brown);
-    }
-    /* Text Input Invalid Input */
-    
-    .form--text-input.invalid input[type=text] {
-        outline: none;
-        border: 2px solid var(--pink);
-    }
-    
-    .form--text-input.invalid label {
-        color: var(--pink);
-    }
-    
-    .form--text-input {
-        position: relative;
-        width: fit-content;
-    }
-    
-    .form--text-input.invalid label::after {
-        content: "Wrong format";
-        position: absolute;
-        right: 0;
-        font-weight: normal;
-    }
-    /* RADIO LABEL  */
-    
-    label input[type='radio'] {
-        display: none;
-    }
-    
-    label input[type='radio']+span {
-        display: flex;
-        align-items: center;
-        line-height: 1;
-        width: fit-content;
-        padding: 18px 16px;
-        /* TODO- Remove Margin */
-        margin: 5px 0;
-        font-weight: bold;
-        border: 1px solid var(--light-gray);
-        border-radius: 8px;
-        font-size: 14px;
-        cursor: pointer;
-    }
-    
-    label input[type='radio']:checked+span {
-        border: 1px solid var(--brown);
-    }
-    
-    label input[type='radio']:hover+span {
-        border: 1px solid var(--dark-brown);
-    }
-    /* RADIO BUTTON*/
-    
-    label input[type='radio']+span::before {
-        content: url('../../assets/shared/desktop/radio-button-off.svg');
-        display: block;
-        margin-right: 16px;
-    }
-    
-    label input[type='radio']:checked+span::before {
-        content: url('../../assets/shared/desktop/radio-button-on.svg');
-    }
-    /* NUMBER INPUT */
-    /* REMOVE ARROWS IN Chrome, Safari, Edge, Opera */
-    
-    input[type=number]::-webkit-outer-spin-button,
-    input[type=number]::-webkit-inner-spin-button {
-        -webkit-appearance: none;
-        margin: 0;
-    }
-    /* REMOVE ARROWS IN  Firefox */
-    
-    input[type=number] {
-        -moz-appearance: textfield;
-    }
-    
-    .form--number-input {
-        padding: 15px;
-        background: var(--dark-grayish-white);
-        width: fit-content;
-    }
-    
-    #form--number-dec,
-    #form--number-inc {
-        border: none;
-        color: var(--gray);
-    }
-    
-    .form--number-input input {
-        border: none;
-        font-size: 14px;
-        height: 16px;
-        width: 58px;
-        text-align: center;
-        background-color: var(--dark-grayish-white);
-    }
-    
-    .form--number-input input:focus {
-        outline: none;
-    }
-    
-    #form--number-dec:hover,
-    #form--number-inc:hover {
-        color: var(--brown);
-    }
-    /* CONTAINER */
-    
-    .container {
-        margin-left: 24px;
-        margin-right: 24px;
-        /*TODO  - REMOVE MARGIN AFTER MAX WIDTH*/
-    }
-    /* GENERICS */
-    
-    a {
-        text-decoration: none;
-    }
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap");
+
+/* 01 COLORS */
+
+:root {
+    --brown: hsl(22, 65%, 57%);
+    --black: hsl(0, 0%, 0%);
+    --grayish-black: hsl(0, 0%, 6%);
+    --light-grayish-black: hsl(0, 0%, 10%);
+    --dark-gray: hsl(0, 0%, 45%);
+    --gray: hsl(0, 0%, 55%);
+    --light-gray: hsl(0, 0%, 81%);
+    --dark-grayish-white: hsl(0, 0%, 95%);
+    --light-grayish-white: hsl(0, 0%, 98%);
+    --pink: #cd2c2c;
+    --dark-brown: hsl(21, 94%, 75%);
+    --white: hsl(0, 0%, 100%);
+}
+
+
+/*--------------------------------------*/
+
+
+/* BASIC COMPONENTS */
+
+
+/*--------------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
+}
+
+html,
+body {
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+
+/*02 TYPOGRAPHY*/
+
+body,
+.body,
+p {
+    font-family: "Manrope", sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 500;
+    color: var(--black);
+}
+
+h1 {
+    font-family: "Manrope", sans-serif;
+    font-size: 56px;
+    line-height: 58px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--black);
+    text-align: center;
+}
+
+h2 {
+    font-family: "Manrope", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: uppercase;
+    line-height: 44px;
+    letter-spacing: 1.5px;
+    color: var(--black);
+}
+
+h3 {
+    font-family: "Manrope", sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    text-transform: uppercase;
+    line-height: 36px;
+    letter-spacing: 1.15px;
+    color: var(--black);
+}
+
+h4 {
+    font-family: "Manrope", sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    text-transform: uppercase;
+    line-height: 38px;
+    letter-spacing: 2px;
+    color: var(--black);
+}
+
+h5 {
+    font-family: "Manrope", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+    line-height: 33px;
+    letter-spacing: 1.7px;
+    color: var(--black);
+}
+
+h6 {
+    font-family: "Manrope", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 24px;
+    letter-spacing: 1.3px;
+    color: var(--black);
+}
+
+.overline {
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 19px;
+    letter-spacing: 10px;
+    color: var(--brown);
+}
+
+.sub-title {
+    font-family: "Manrope", sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    text-transform: uppercase;
+    line-height: 25px;
+    letter-spacing: 1px;
+    color: var(--brown);
+}
+
+
+/* 03 BUTTONS */
+
+.button-1,
+.button-2 {
+    font-family: "Manrope", sans-serif;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out, border 0.5s ease-in-out;
+}
+
+.button-1 {
+    background-color: var(--brown);
+    color: var(--white);
+}
+
+.button-1:hover {
+    background-color: var(--dark-brown);
+    color: var(--white);
+}
+
+.button-2 {
+    background-color: var(--white);
+    border: 1px solid var(--black);
+}
+
+.button-2:hover {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.button-3 {
+    font-family: "Manrope", sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    color: var(--gray);
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.button-3::after {
+    content: url("../../../assets/shared/desktop/icon-arrow-right.svg");
+    position: absolute;
+    top: 1px;
+    right: -14px;
+    height: 13px;
+    transition: color 0.5s ease-in-out;
+}
+
+.button-3:hover {
+    color: var(--brown);
+}
+
+
+/* 04 FORM ELEMENTS */
+
+
+/* Text Input */
+
+.form--text-input label {
+    display: block;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.form--text-input input[type="text"]::placeholder {
+    color: var(--gray);
+}
+
+.form--text-input input[type="text"] {
+    padding: 18px 24px;
+    box-sizing: border-box;
+    font-weight: bold;
+    border: 1px solid var(--light-gray);
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.form--text-input input[type="text"]:focus {
+    border: 1px solid var(--dark-brown);
+    outline: none;
+    caret-color: var(--dark-brown);
+}
+
+
+/* Text Input Invalid Input */
+
+.form--text-input.invalid input[type="text"] {
+    outline: none;
+    border: 2px solid var(--pink);
+}
+
+.form--text-input.invalid label {
+    color: var(--pink);
+}
+
+.form--text-input {
+    position: relative;
+    width: fit-content;
+}
+
+.form--text-input.invalid label::after {
+    content: "Wrong format";
+    position: absolute;
+    right: 0;
+    font-weight: normal;
+}
+
+
+/* RADIO LABEL  */
+
+label input[type="radio"] {
+    display: none;
+}
+
+label input[type="radio"]+span {
+    display: flex;
+    align-items: center;
+    line-height: 1;
+    width: fit-content;
+    padding: 18px 16px;
+    /* TODO- Remove Margin */
+    margin: 5px 0;
+    font-weight: bold;
+    border: 1px solid var(--light-gray);
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+label input[type="radio"]:checked+span {
+    border: 1px solid var(--brown);
+}
+
+label input[type="radio"]:hover+span {
+    border: 1px solid var(--dark-brown);
+}
+
+
+/* RADIO BUTTON*/
+
+label input[type="radio"]+span::before {
+    content: url("../../assets/shared/desktop/radio-button-off.svg");
+    display: block;
+    margin-right: 16px;
+}
+
+label input[type="radio"]:checked+span::before {
+    content: url("../../assets/shared/desktop/radio-button-on.svg");
+}
+
+
+/* NUMBER INPUT */
+
+
+/* REMOVE ARROWS IN Chrome, Safari, Edge, Opera */
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+/* REMOVE ARROWS IN  Firefox */
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.form--number-input {
+    padding: 15px;
+    background: var(--dark-grayish-white);
+    width: fit-content;
+}
+
+#form--number-dec,
+#form--number-inc {
+    border: none;
+    color: var(--gray);
+}
+
+.form--number-input input {
+    border: none;
+    font-size: 14px;
+    height: 16px;
+    width: 58px;
+    text-align: center;
+    background-color: var(--dark-grayish-white);
+}
+
+.form--number-input input:focus {
+    outline: none;
+}
+
+#form--number-dec:hover,
+#form--number-inc:hover {
+    color: var(--brown);
+}
+
+
+/* CONTAINER */
+
+.container {
+    margin-left: 24px;
+    margin-right: 24px;
+    /*TODO  - REMOVE MARGIN AFTER MAX WIDTH*/
+}
+
+
+/* GENERICS */
+
+a {
+    text-decoration: none;
+}
+
+
+/* FONTS */
+
+.font--dark-gray {
+    color: var(--dark-gray);
+}
+
+.font--white {
+    color: var(--white);
+}

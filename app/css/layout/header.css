@@ -1,5 +1,5 @@
 header {
-    background: var(--grayish-black);
+    background: var(--black);
     padding: 35px 0;
     position: relative;
     border: none;
@@ -49,7 +49,7 @@ header::after {
 }
 
 .header--nav-main a {
-    font-family: 'Manrope', sans-serif;
+    font-family: "Manrope", sans-serif;
     font-weight: bold;
     font-size: 13px;
     text-transform: uppercase;

@@ -50,7 +50,13 @@
 
 /* Extra small devices (phones, 600px and down) */
 
-@media only screen and (max-width: 599px) {}
+@media only screen and (max-width: 599px) {
+    h1 {
+        font-size: 36px;
+        line-height: 40px;
+        letter-spacing: 1.29px;
+    }
+}
 
 
 /* Small devices (portrait tablets and large phones, 767px and down) */
