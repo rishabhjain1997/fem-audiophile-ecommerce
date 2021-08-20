@@ -1,0 +1,188 @@
+/*--------------------------------------*/
+
+
+/* BREAKPOINTS DOWN */
+
+
+/*--------------------------------------*/
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+    /*FOOTER INFO*/
+    .footer-info {
+        margin-bottom: 96px;
+    }
+    .footer-info--image {
+        background: url("../../../assets/shared/tablet/image-best-gear.jpg");
+        width: 100%;
+        height: 300px;
+        border-radius: 8px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        margin-bottom: 63px;
+    }
+    .footer-info .container .footer-info--text h4 {
+        text-align: center;
+        margin-left: 58px;
+        margin-right: 58px;
+        margin-bottom: 32px;
+        font-size: 40px;
+        line-height: 44px;
+        letter-spacing: 1.43px;
+    }
+    .footer-info .container .footer-info--text p.body {
+        margin-left: 58px;
+        margin-right: 58px;
+    }
+    /*FOOTER LINKS*/
+    .footer-links .container {
+        padding-top: 60px;
+        padding-bottom: 46px;
+        align-items: flex-start;
+    }
+    .footer-links .container .footer-links--links {
+        align-items: flex-start;
+    }
+    #footer-links--logo {
+        margin-bottom: 32px;
+    }
+    .footer-links--nav {
+        flex-direction: row;
+        margin-bottom: 32px;
+    }
+    .footer-links--nav .footer-links--link {
+        text-align: left;
+        margin-bottom: 0;
+        margin-right: 34px;
+    }
+    .footer-links--nav .footer-links--link:last-of-type {
+        margin-right: 0;
+    }
+    .footer-links--info .body {
+        text-align: left;
+        margin-bottom: 80px;
+    }
+    .footer-links--social {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    .footer-links--social .footer-links--disclaimer {
+        margin-bottom: 0;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+    /*FOOTER INFO*/
+    .footer-info,
+    .footer-info .container {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .footer-info {
+        margin-bottom: 200px;
+    }
+    .footer-info .container .footer-info--image {
+        background: url("../../../assets/shared/desktop/image-best-gear.jpg");
+        flex-grow: 1;
+        flex-basis: 0;
+        max-width: calc(50% - 15px);
+        height: 588px;
+        border-radius: 8px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        margin-bottom: 0;
+        margin-left: 30px;
+    }
+    .footer-info .container .footer-info--text {
+        flex-grow: 1;
+        flex-basis: 0;
+        align-self: center;
+        max-width: 445px;
+    }
+    .footer-info .container .footer-info--text h4 {
+        text-align: left;
+        margin: 0;
+        margin-bottom: 32px;
+    }
+    .footer-info .container .footer-info--text p.body {
+        text-align: left;
+        margin: 0;
+    }
+    /*FOOTER LINKS*/
+    .footer-links .container {
+        padding-top: 75px;
+        padding-bottom: 48px;
+    }
+    .footer-links .container .footer-links--links {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 36px;
+    }
+    .footer-links .container .footer-links--links #footer-links--logo {
+        margin-bottom: 0;
+    }
+    .footer-links .container .footer-links--links .footer-links--nav {
+        margin-bottom: 0;
+    }
+    .footer-links .container .footer-links--info .body {
+        width: 50%;
+        margin-bottom: 56px;
+    }
+    .footer-links .container .footer-links--social .footer-links--social-links {
+        transform: translateY(-88px);
+    }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1400px and up) */
+
+@media only screen and (min-width: 1200px) {}
+
+@media only screen and (min-width: 1400px) {}
+
+@media only screen and (min-width: 1600px) {}
+
+
+/*--------------------------------------*/
+
+
+/* BREAKPOINTS UP */
+
+
+/*--------------------------------------*/
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 599px) {}
+
+
+/* Small devices (portrait tablets and large phones, 767px and down) */
+
+@media only screen and (max-width: 767px) {}
+
+
+/* Medium devices (landscape tablets, 991px and down) */
+
+@media only screen and (max-width: 991px) {}
+
+@media only screen and (max-width: 1199px) {}
+
+@media only screen and (max-width: 1399px) {}

@@ -164,15 +164,67 @@ header {
 }
 
 .zx7-speaker .container .button-2 {
-    background: var(--dark-grayish-white);
+    background: #dfdfdf;
 }
 
 .zx7-speaker .container:hover .button-2 {
     border: 1px solid transparent;
     /* background-color: var(--black); */
     color: var(--white);
+    background: var(--light-grayish-white);
 }
 
 .zx7-speaker .container:hover h4 {
     color: var(--white);
+}
+
+
+/* YX1 EARPHONES*/
+
+.yx1-earphones .container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 120px;
+    align-items: stretch;
+}
+
+.yx1-earphones .container .yx1-earphones--image {
+    background: url("../../assets/home/mobile/image-earphones-yx1.jpg");
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;
+    margin-bottom: 24px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.yx1-earphones .container .yx1-earphones--info {
+    padding: 41px 24px;
+    padding-right: 0;
+    background: var(--dark-grayish-white);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.yx1-earphones .container .yx1-earphones--info h4 {
+    margin-bottom: 32px;
+    transition: all 0.5s ease-in-out;
+}
+
+.yx1-earphones .container .yx1-earphones--info .button-2 {
+    background: transparent;
+    transition: all 0.5s ease-in-out;
+}
+
+.yx1-earphones .container .yx1-earphones--info:hover h4 {
+    color: var(--white);
+}
+
+.yx1-earphones .container .yx1-earphones--info:hover .button-2 {
+    color: var(--white);
+    border: 1px solid transparent;
+    background: var(--light-grayish-white);
 }
