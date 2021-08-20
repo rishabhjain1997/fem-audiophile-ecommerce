@@ -1,0 +1,40 @@
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+    /* SHOP */
+    .shop {
+        padding: 148px 0 96px 0;
+    }
+    .shop .container,
+    .shop {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .shop--card {
+        flex-grow: 1;
+        margin-left: 10px;
+        margin-bottom: 0;
+    }
+    .shop--card:first-of-type {
+        margin-left: 0;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+    /* SHOP */
+    .shop {
+        padding: 200px 0 168px 0;
+    }
+    .shop--card {
+        flex-grow: 1;
+        margin-left: 30px;
+        margin-bottom: 0;
+    }
+    .shop--card:first-of-type {
+        margin-left: 0;
+    }
+}
