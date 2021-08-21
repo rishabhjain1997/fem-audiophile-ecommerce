@@ -1,0 +1,28 @@
+.mark-2-snapshot .container .product-snapshot--image {
+    background: url("../../../assets/category-headphones/mobile/image-xx99-mark-two.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.mark-1-snapshot .container .product-snapshot--image {
+    background: url("../../../assets/category-headphones/mobile/image-xx99-mark-one.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.xx59-snapshot .container .product-snapshot--image {
+    background: url("../../../assets/category-headphones/mobile/image-xx59.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.shop {
+    padding-top: 53px;
+}
+
+.shop--card:hover .shop--title {
+    color: var(--black);
+}

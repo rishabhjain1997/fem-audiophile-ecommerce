@@ -42,7 +42,7 @@ header::after {
     position: absolute;
     content: "";
     height: 1px;
-    background: var(--gray);
+    background: var(--light-grayish-black);
     bottom: 0;
     left: 0;
     right: 0;

@@ -1,0 +1,148 @@
+/*--------------------------------------*/
+
+
+/* BREAKPOINTS DOWN */
+
+
+/*--------------------------------------*/
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+    /*PRODUCT TITLE */
+    .product-title {
+        margin-bottom: 120px;
+        padding-top: 105px;
+        padding-bottom: 97px;
+    }
+    /*PRODUCT SNAPSHOT */
+    .product-snapshot {
+        margin-top: 0;
+        margin-bottom: 120px;
+    }
+    .product-snapshot--image {
+        margin-bottom: 52px;
+    }
+    .product-snapshot .product-snapshot--text p.overline {
+        margin-bottom: 16px;
+    }
+    .product-snapshot .product-snapshot--text h4 {
+        font-size: 40px;
+        font-weight: bold;
+        line-height: 44px;
+        letter-spacing: 1.43px;
+        margin: 0 90px;
+        margin-bottom: 32px;
+    }
+    .product-snapshot .product-snapshot--text p.body {
+        margin: 0 60px;
+        margin-bottom: 24px;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+    /*PRODUCT TITLE */
+    .product-title {
+        margin-bottom: 160px;
+        padding-top: 98px;
+        padding-bottom: 97px;
+    }
+    /*PRODUCT SNAPSHOT */
+    .product-snapshot {
+        margin-top: 0;
+        margin-bottom: 160px;
+    }
+    .product-snapshot .container {
+        display: flex;
+        flex-direction: row;
+    }
+    .product-snapshot.product-snapshot-reverse .container {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .product-snapshot--image {
+        margin: 0;
+        height: 360px;
+        flex-grow: 1;
+        flex-basis: 0;
+        max-width: calc(50% - 15px);
+    }
+    .product-snapshot .container {
+        justify-content: space-between;
+    }
+    .product-snapshot .container .product-snapshot--text {
+        margin-left: 30px;
+        align-items: flex-start;
+        flex-grow: 1;
+        flex-basis: 0;
+        max-width: 445px;
+    }
+    .product-snapshot.product-snapshot-reverse .container .product-snapshot--text {
+        margin-left: 0;
+        margin-right: 30px;
+    }
+    .product-snapshot .product-snapshot--text p.overline {
+        margin-bottom: 16px;
+    }
+    .product-snapshot .product-snapshot--text h4 {
+        margin: 0;
+        text-align: left;
+        margin-bottom: 32px;
+    }
+    .product-snapshot .product-snapshot--text p.body {
+        margin: 0;
+        text-align: left;
+        margin-bottom: 40px;
+    }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1400px and up) */
+
+@media only screen and (min-width: 1200px) {}
+
+@media only screen and (min-width: 1400px) {
+    .product-snapshot--image {
+        height: 560px;
+        max-width: min(50%, 700px);
+    }
+}
+
+@media only screen and (min-width: 1600px) {}
+
+
+/*--------------------------------------*/
+
+
+/* BREAKPOINTS UP */
+
+
+/*--------------------------------------*/
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 599px) {}
+
+
+/* Small devices (portrait tablets and large phones, 767px and down) */
+
+@media only screen and (max-width: 767px) {}
+
+
+/* Medium devices (landscape tablets, 991px and down) */
+
+@media only screen and (max-width: 991px) {}
+
+@media only screen and (max-width: 1199px) {}
+
+@media only screen and (max-width: 1399px) {}

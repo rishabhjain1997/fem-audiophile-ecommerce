@@ -2,67 +2,133 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-
-  <title>Frontend Mentor | Audiophile e-commerce website</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+    <link rel='stylesheet' type='text/css' href='app/css/layout/design-guide.css' />
+    <link rel='stylesheet' type='text/css' href='app/css/layout/design-guide-queries.css' />
+    <link rel='stylesheet' type='text/css' href='app/css/layout/header.css' />
+    <link rel='stylesheet' type='text/css' href='app/css/layout/header-queries.css' />
+    <link rel='stylesheet' type='text/css' href='app/css/layout/shop.css' />
+    <link rel='stylesheet' type='text/css' href='app/css/layout/shop-queries.css' />
+    <link rel='stylesheet' type='text/css' href='app/css/layout/footer.css' />
+    <link rel='stylesheet' type='text/css' href='app/css/layout/footer-queries.css' />
+    <link rel='stylesheet' type='text/css' href='app/css/category/product-snapshot.css' />
+    <link rel='stylesheet' type='text/css' href='app/css/category/product-snapshot-queries.css' />
+    <link rel='stylesheet' type='text/css' href='app/css/category/headphones.css' />
+    <link rel='stylesheet' type='text/css' href='app/css/category/headphones-queries.css' />
+    <title>Audiophile</title>
 </head>
 
 <body>
-  Home
-  Headphones
-  Speakers
-  Earphones
+    <header>
+        <div class="container">
+            <button class='header--hamburger'><img src="assets/shared/tablet/icon-hamburger.svg" alt="Hamburger Menu"></button>
+            <img id='header--logo' src="assets/shared/desktop/logo.svg" alt="Logo">
+            <nav class='header--nav-main'>
+                <a href='#'>Home</a>
+                <a href='#'>Headphones</a>
+                <a href='#'>Speakers</a>
+                <a href='#'>Earphones</a>
+            </nav>
+            <button id='header--cart'><img src="assets/shared/desktop/icon-cart.svg" alt="Cart"></button>
+        </div>
+    </header>
+    <section class="product-title">
+        <h2>Headphones</h2>
+    </section>
+    <section class="product-snapshot mark-2-snapshot">
+        <div class="container">
+            <div class="product-snapshot--image"></div>
+            <div class="product-snapshot--text">
+                <p class="overline">New product</p>
+                <h4>XX99 Mark II Headphones</h4>
+                <p class="body">The new XX99 Mark II headphones is the pinnacle of pristine audio. It redefines your premium headphone experience by reproducing the balanced depth and precision of studio-quality sound.</p>
+                <button class="button-1">See product</button>
+            </div>
+        </div>
+    </section>
+    <section class="product-snapshot mark-1-snapshot product-snapshot-reverse">
+        <div class="container">
+            <div class="product-snapshot--image"></div>
+            <div class="product-snapshot--text">
 
-  Headphones
+                <h4>XX99 Mark I Headphones</h4>
+                <p class="body">As the gold standard for headphones, the classic XX99 Mark I offers detailed and accurate audio reproduction for audiophiles, mixing engineers, and music aficionados alike in studios and on the go.</p>
+                <button class="button-1">See product</button>
+            </div>
+        </div>
+    </section>
+    <section class="product-snapshot xx59-snapshot">
+        <div class="container">
+            <div class="product-snapshot--image"></div>
+            <div class="product-snapshot--text">
 
-  New product
-  
-  XX99 Mark II Headphones
-  The new XX99 Mark II headphones is the pinnacle of pristine audio. It redefines your premium 
-  headphone experience by reproducing the balanced depth and precision of studio-quality sound.
-  
-  See product
+                <h4>XX59 Headphones</h4>
+                <p class="body">Enjoy your audio almost anywhere and customize it to your specific tastes with the XX59 headphones. The stylish yet durable versatile wireless headset is a brilliant companion at home or on the move.</p>
+                <button class="button-1">See product</button>
+            </div>
+        </div>
+    </section>
 
-  XX99 Mark I Headphones
-  As the gold standard for headphones, the classic XX99 Mark I offers detailed and accurate audio 
-  reproduction for audiophiles, mixing engineers, and music aficionados alike in studios and on the go.
-  
-  See product
+    <section class="shop">
+        <div class="container">
+            <div class="shop--card shop--headphones">
+                <p class="shop--title">Headphones</p>
+                <button class="button-3">Shop</button>
+            </div>
+            <div class="shop--card shop--speakers">
+                <p class="shop--title">Speakers</p>
+                <button class="button-3">Shop</button>
+            </div>
+            <div class="shop--card shop--earphones">
+                <p class="shop--title">Earphones</p>
+                <button class="button-3">Shop</button>
+            </div>
+        </div>
+    </section>
 
-  XX59 Headphones
-  Enjoy your audio almost anywhere and customize it to your specific tastes with the XX59 headphones. 
-  The stylish yet durable versatile wireless headset is a brilliant companion at home or on the move.
-  
-  See product
+    <footer>
+        <div class="footer-info">
+            <div class="container">
+                <div class="footer-info--image"></div>
+                <div class="footer-info--text">
+                    <h4>Bringing you the <span class='highlight'>best</span> audio gear</h4>
+                    <p class="body">
+                        Located at the heart of New York City, Audiophile is the premier store for high end headphones, earphones, speakers, and audio accessories. We have a large showroom and luxury demonstration rooms available for you to browse and experience a wide range
+                        of our products. Stop by our store to meet some of the fantastic people who make Audiophile the best place to buy your portable audio equipment.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-links">
+            <div class="container">
+                <div class="footer-links--links">
+                    <img id='footer-links--logo' src="assets/shared/desktop/logo.svg" alt="Logo">
+                    <nav class="footer-links--nav">
+                        <a href="#" class='sub-title footer-links--link'>Home</a>
+                        <a href="#" class='sub-title footer-links--link'>Headphones</a>
+                        <a href="#" class='sub-title footer-links--link'>Speakers</a>
+                        <a href="#" class='sub-title footer-links--link'>Earphones</a>
+                    </nav>
+                </div>
+                <div class="footer-links--info">
+                    <p class="body">Audiophile is an all in one stop to fulfill your audio needs. We're a small team of music lovers and sound specialists who are devoted to helping you get the most out of personal audio. Come and visit our demo facility - we’re open
+                        7 days a week.</p>
 
-  Headphones
-  Shop
-  
-  Speakers
-  Shop
-  
-  Earphones
-  Shop
-
-  Bringing you the best audio gear
-  Located at the heart of New York City, Audiophile is the premier store for high end headphones,
-  earphones, speakers, and audio accessories. We have a large showroom and luxury demonstration
-  rooms available for you to browse and experience a wide range of our products. Stop by our store
-  to meet some of the fantastic people who make Audiophile the best place to buy your portable
-  audio equipment.
-
-  Home
-  Headphones
-  Speakers
-  Earphones
-
-  Audiophile is an all in one stop to fulfill your audio needs. We're a small team of music lovers
-  and sound specialists who are devoted to helping you get the most out of personal audio. Come and
-  visit our demo facility - we’re open 7 days a week.
-
-  Copyright 2021. All Rights Reserved
+                </div>
+                <div class="footer-links--social">
+                    <p class="footer-links--disclaimer"> Copyright 2021. All Rights Reserved</p>
+                    <div class="footer-links--social-links">
+                        <a href="facebook.com"><img src="assets/shared/desktop/icon-facebook.svg" alt="fb link"></a>
+                        <a href="twitter.com"><img src="assets/shared/desktop/icon-twitter.svg" alt="tw link"></a>
+                        <a href="instagram.com"><img src="assets/shared/desktop/icon-instagram.svg" alt="ig link"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
