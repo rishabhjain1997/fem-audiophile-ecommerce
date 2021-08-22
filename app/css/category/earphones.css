@@ -1,0 +1,14 @@
+.yx1-snapshot .container .product-snapshot--image {
+    background: url("../../../assets/category-earphones/mobile/image-yx1-earphones.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.shop {
+    padding-top: 66px;
+}
+
+.shop--card:hover .shop--title {
+    color: var(--black);
+}

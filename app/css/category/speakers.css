@@ -1,0 +1,21 @@
+.zx9-snapshot .container .product-snapshot--image {
+    background: url("../../../assets/category-speakers/mobile/image-zx9.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.zx7-snapshot .container .product-snapshot--image {
+    background: url("../../../assets/category-speakers/mobile/image-zx7.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.shop {
+    padding-top: 66px;
+}
+
+.shop--card:hover .shop--title {
+    color: var(--black);
+}

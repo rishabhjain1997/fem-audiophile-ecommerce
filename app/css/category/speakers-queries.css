@@ -10,20 +10,14 @@
 /* Small devices (portrait tablets and large phones, 600px and up) */
 
 @media only screen and (min-width: 600px) {
-    .mark-2-snapshot .container .product-snapshot--image {
-        background: url("../../../assets/category-headphones/tablet/image-xx99-mark-two.jpg");
+    .zx9-snapshot .container .product-snapshot--image {
+        background: url("../../../assets/category-speakers/tablet/image-zx9.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
     }
-    .mark-1-snapshot .container .product-snapshot--image {
-        background: url("../../../assets/category-headphones/tablet/image-xx99-mark-one.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-    }
-    .xx59-snapshot .container .product-snapshot--image {
-        background: url("../../../assets/category-headphones/tablet/image-xx59.jpg");
+    .zx7-snapshot .container .product-snapshot--image {
+        background: url("../../../assets/category-speakers/tablet/image-zx7.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
@@ -44,20 +38,14 @@
 /* Large devices (laptops/desktops, 992px and up) */
 
 @media only screen and (min-width: 992px) {
-    .mark-2-snapshot .container .product-snapshot--image {
-        background: url("../../../assets/category-headphones/desktop/image-xx99-mark-two.jpg");
+    .zx9-snapshot .container .product-snapshot--image {
+        background: url("../../../assets/category-speakers/desktop/image-zx9.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
     }
-    .mark-1-snapshot .container .product-snapshot--image {
-        background: url("../../../assets/category-headphones/desktop/image-xx99-mark-one.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-    }
-    .xx59-snapshot .container .product-snapshot--image {
-        background: url("../../../assets/category-headphones/desktop/image-xx59.jpg");
+    .zx7-snapshot .container .product-snapshot--image {
+        background: url("../../../assets/category-speakers/desktop/image-zx7.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
