@@ -2,89 +2,197 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-
-  <title>Frontend Mentor | Audiophile e-commerce website</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+    <link rel='stylesheet' type='text/css' href='app/css/layout/design-guide.css' />
+    <link rel='stylesheet' type='text/css' href='app/css/layout/design-guide-queries.css' />
+    <link rel='stylesheet' type='text/css' href='app/css/layout/header.css' />
+    <link rel='stylesheet' type='text/css' href='app/css/layout/header-queries.css' />
+    <link rel='stylesheet' type='text/css' href='app/css/layout/shop.css' />
+    <link rel='stylesheet' type='text/css' href='app/css/layout/shop-queries.css' />
+    <link rel='stylesheet' type='text/css' href='app/css/layout/footer.css' />
+    <link rel='stylesheet' type='text/css' href='app/css/layout/footer-queries.css' />
+    <link rel='stylesheet' type='text/css' href='app/css/product/product-detail.css' />
+    <link rel='stylesheet' type='text/css' href='app/css/product/product-detail-queries.css' />
+    <link rel='stylesheet' type='text/css' href='app/css/product/zx9.css' />
+    <link rel='stylesheet' type='text/css' href='app/css/product/zx9-queries.css' />
+    <title>Audiophile</title>
 </head>
 
 <body>
-  Home
-  Headphones
-  Speakers
-  Earphones
+    <header>
+        <div class="container">
+            <button class='header--hamburger'><img src="assets/shared/tablet/icon-hamburger.svg" alt="Hamburger Menu"></button>
+            <img id='header--logo' src="assets/shared/desktop/logo.svg" alt="Logo">
+            <nav class='header--nav-main'>
+                <a href='/'>Home</a>
+                <a href='/headphones.html'>Headphones</a>
+                <a href='/speakers.html'>Speakers</a>
+                <a href='/earphones.html'>Earphones</a>
+            </nav>
+            <button id='header--cart'><img src="assets/shared/desktop/icon-cart.svg" alt="Cart"></button>
+        </div>
+    </header>
+    <div class="container">
+        <button class='button--back body'>Go Back</button>
+    </div>
+    <section class="p-detail p-zx9">
+        <div class="container">
+            <div class="p-detail__image"></div>
+            <div class="p-detail__description">
+                <p class="overline">New product</p>
+                <h2>ZX9 Speaker</h2>
+                <p class="body">Upgrade your sound system with the all new ZX9 active speaker. It’s a bookshelf speaker system that offers truly wireless connectivity -- creating new possibilities for more pleasing and practical audio setups.
+                </p>
 
-  Go back
-  
-  New product
+                <h6>$4,500</h6>
+                <div class="p-detail__cart">
+                    <div class="form--number-input">
+                        <button type="button" id="form--number-dec">-</button>
+                        <input type="number" step="1" value='1' min='1' />
+                        <button type="button" id="form--number-inc">+</button>
+                    </div>
+                    <button class="button-1">Add to cart</button></div>
 
-  ZX9 Speaker
-  Upgrade your sound system with the all new ZX9 active speaker. It’s a bookshelf speaker 
-  system that offers truly wireless connectivity -- creating new possibilities for more 
-  pleasing and practical audio setups.
-  
-  $4,500
-  1
-  Add to cart
+            </div>
+        </div>
+    </section>
 
-  Features
-  Connect via Bluetooth or nearly any wired source. This speaker features optical, digital coaxial, 
-  USB Type-B, stereo RCA, and stereo XLR inputs, allowing you to have up to five wired source devices 
-  connected for easy switching. Improved bluetooth technology offers near lossless audio quality at 
-  up to 328ft (100m).
+    <section class="p-features-and-contents">
+        <div class="container">
+            <div class="p-features">
+                <h3>Features</h3>
+                <p class="body">
+                    Connect via Bluetooth or nearly any wired source. This speaker features optical, digital coaxial, USB Type-B, stereo RCA, and stereo XLR inputs, allowing you to have up to five wired source devices connected for easy switching. Improved bluetooth technology
+                    offers near lossless audio quality at up to 328ft (100m).<br><br> Discover clear, more natural sounding highs than the competition with ZX9’s signature planar diaphragm tweeter. Equally important is its powerful
+                    room-shaking bass courtesy of a 6.5” aluminum alloy bass unit. You’ll be able to enjoy equal sound quality whether in a large room or small den. Furthermore, you will experience new sensations from old songs since it can respond to
+                    even the subtle waveforms.
+                </p>
+            </div>
+            <div class="p-contents">
+                <h3>In the box</h3>
+                <ul class="p-contents__items">
+                    <li class="p-item">
+                        <span class="p-item__quantity p-item__quantity-two-x">2x</span>
+                        <span class="p-item__name">Speaker unit</span>
+                    </li>
+                    <li class="p-item">
+                        <span class="p-item__quantity p-item__quantity-two-x">2x</span>
+                        <span class="p-item__name">Speaker cloth panel</span>
+                    </li>
+                    <li class="p-item">
+                        <span class="p-item__quantity">1x</span>
+                        <span class="p-item__name">User manual</span>
+                    </li>
+                    <li class="p-item">
+                        <span class="p-item__quantity">1x</span>
+                        <span class="p-item__name">3.5mm 5m audio cable</span>
+                    </li>
+                    <li class="p-item">
+                        <span class="p-item__quantity">1x</span>
+                        <span class="p-item__name">10m optical cable</span>
+                    </li>
 
-  Discover clear, more natural sounding highs than the competition with ZX9’s signature planar diaphragm 
-  tweeter. Equally important is its powerful room-shaking bass courtesy of a 6.5” aluminum alloy bass 
-  unit. You’ll be able to enjoy equal sound quality whether in a large room or small den. Furthermore, you 
-  will experience new sensations from old songs since it can respond to even the subtle waveforms.
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="p-collage">
+        <div class="container">
+            <div class="p-collage__small">
+                <div class="p-collage__small-image1"></div>
+                <div class="p-collage__small-image2"></div>
+            </div>
+            <div class="p-collage__large p-collage__large-image1"></div>
+        </div>
+    </section>
+    <section class="p-recommended">
+        <div class="container">
+            <h3>You may also like</h3>
+            <div class="p-recommended__products">
+                <div class="p-recommended__product p-recommended__zx7">
+                    <div class="p-r__product-image"></div>
+                    <h5>ZX7 Speaker</h5>
+                    <button class="button-1">See product</button>
+                </div>
 
-  In the box
-  
-  2x Speaker unit
-  2x Speaker cloth panel
-  1x User manual
-  1x 3.5mm 10m audio cable
-  1x 10m optical cable
-  
-  You may also like
-  
-  ZX7 Speaker
-  See product
-  
-  XX99 Mark I
-  See product
-  
-  XX59
-  See product
-  
-  Headphones
-  Shop
-  
-  Speakers
-  Shop
-  
-  Earphones
-  Shop
+                <div class="p-recommended__product p-recommended__xx99-mark-one">
+                    <div class="p-r__product-image"></div>
+                    <h5>XX99 Mark I</h5>
+                    <button class="button-1">See product</button>
+                </div>
 
-  Bringing you the best audio gear
-  Located at the heart of New York City, Audiophile is the premier store for high end headphones,
-  earphones, speakers, and audio accessories. We have a large showroom and luxury demonstration
-  rooms available for you to browse and experience a wide range of our products. Stop by our store
-  to meet some of the fantastic people who make Audiophile the best place to buy your portable
-  audio equipment.
+                <div class="p-recommended__product p-recommended__xx59">
+                    <div class="p-r__product-image"></div>
+                    <h5>XX59</h5>
+                    <button class="button-1">See product</button>
+                </div>
+            </div>
+        </div>
 
-  Home
-  Headphones
-  Speakers
-  Earphones
+    </section>
+    <section class="shop">
+        <div class="container">
+            <div class="shop--card shop--headphones">
+                <p class="shop--title">Headphones</p>
+                <button class="button-3">Shop</button>
+            </div>
+            <div class="shop--card shop--speakers">
+                <p class="shop--title">Speakers</p>
+                <button class="button-3">Shop</button>
+            </div>
+            <div class="shop--card shop--earphones">
+                <p class="shop--title">Earphones</p>
+                <button class="button-3">Shop</button>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-info">
+            <div class="container">
+                <div class="footer-info--image"></div>
+                <div class="footer-info--text">
+                    <h4>Bringing you the <span class='highlight'>best</span> audio gear</h4>
+                    <p class="body">
+                        Located at the heart of New York City, Audiophile is the premier store for high end headphones, earphones, speakers, and audio accessories. We have a large showroom and luxury demonstration rooms available for you to browse and experience a wide range
+                        of our products. Stop by our store to meet some of the fantastic people who make Audiophile the best place to buy your portable audio equipment.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-links">
+            <div class="container">
+                <div class="footer-links--links">
+                    <img id='footer-links--logo' src="assets/shared/desktop/logo.svg" alt="Logo">
+                    <nav class="footer-links--nav">
+                        <a href="/" class='sub-title footer-links--link'>Home</a>
+                        <a href="/headphones.html" class='sub-title footer-links--link'>Headphones</a>
+                        <a href="/speakers.html" class='sub-title footer-links--link'>Speakers</a>
+                        <a href="/earphones.html" class='sub-title footer-links--link'>Earphones</a>
+                    </nav>
+                </div>
+                <div class="footer-links--info">
+                    <p class="body">Audiophile is an all in one stop to fulfill your audio needs. We're a small team of music lovers and sound specialists who are devoted to helping you get the most out of personal audio. Come and visit our demo facility - we’re open
+                        7 days a week.</p>
 
-  Audiophile is an all in one stop to fulfill your audio needs. We're a small team of music lovers
-  and sound specialists who are devoted to helping you get the most out of personal audio. Come and
-  visit our demo facility - we’re open 7 days a week.
+                </div>
+                <div class="footer-links--social">
+                    <p class="footer-links--disclaimer"> Copyright 2021. All Rights Reserved</p>
+                    <div class="footer-links--social-links">
+                        <a href="https://facebook.com"><img src="assets/shared/desktop/icon-facebook.svg" alt="fb link"></a>
+                        <a href="https://twitter.com"><img src="assets/shared/desktop/icon-twitter.svg" alt="tw link"></a>
+                        <a href="https://instagram.com"><img src="assets/shared/desktop/icon-instagram.svg" alt="ig link"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src='app/js/layout/shop.js'></script>
+    <script src='app/js/layout/design-guide.js'></script>
+    <script src='app/js/product/zx9.js'></script>
 
-  Copyright 2021. All Rights Reserved
 </body>
 
 </html>

@@ -1,9 +1,9 @@
-const mark1ProductEl = document.querySelector(".p-recommended__xx99 button.button-1");
+const mark2ProductEl = document.querySelector(".p-recommended__xx99 button.button-1");
 const xx59ProductEl = document.querySelector(".p-recommended__xx59 button.button-1");
 const zx9ProductEl = document.querySelector(".p-recommended__zx9 button.button-1");
 
-mark1ProductEl.addEventListener('click', () => {
-    window.location.href = "/product-xx99-mark-one-headphones.html";
+mark2ProductEl.addEventListener('click', () => {
+    window.location.href = "/product-xx99-mark-two-headphones.html";
 })
 
 xx59ProductEl.addEventListener('click', () => {

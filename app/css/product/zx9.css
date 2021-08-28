@@ -1,0 +1,62 @@
+.p-zx9 .container .p-detail__image {
+    background: url("../../../assets/product-zx9-speaker/mobile/image-product.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.p-collage .container .p-collage__small .p-collage__small-image1 {
+    background: url("../../../assets/product-zx9-speaker/mobile/image-gallery-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.p-collage .container .p-collage__small .p-collage__small-image2 {
+    background: url("../../../assets/product-zx9-speaker/mobile/image-gallery-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.p-collage .container .p-collage__large-image1 {
+    background: url("../../../assets/product-zx9-speaker/mobile/image-gallery-3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+/*RECOMMEDED PRODUCTS*/
+
+.p-recommended .container .p-recommended__products .p-recommended__product.p-recommended__zx7 .p-r__product-image {
+    background: url("../../../assets/shared/mobile/image-zx7-speaker.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.p-recommended .container .p-recommended__products .p-recommended__product.p-recommended__xx99-mark-one .p-r__product-image {
+    background: url("../../../assets/shared/mobile/image-xx99-mark-one-headphones.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.p-recommended .container .p-recommended__products .p-recommended__product.p-recommended__xx59 .p-r__product-image {
+    background: url("../../../assets/shared/mobile/image-xx59-headphones.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+/*SHOP*/
+
+.shop {
+    padding-top: 66px;
+}
+
+.shop--card:hover .shop--title {
+    color: var(--black);
+}
