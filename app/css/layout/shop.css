@@ -43,6 +43,7 @@
     bottom: -67px;
     content: url("../../../assets/shared/desktop/image-headphones.png");
     transform: scale(0.4);
+    z-index: 2;
 }
 
 .shop--speakers::before {
