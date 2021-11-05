@@ -4,13 +4,13 @@ const xx59ProductEl = document.querySelector(".p-recommended__xx59 button.button
 
 
 xx59ProductEl.addEventListener('click', () => {
-    window.location.href = "/product-xx59-headphones.html";
+    window.location.href = "product-xx59-headphones.html";
 })
 
 mark1ProductEl.addEventListener('click', () => {
-    window.location.href = "/product-xx99-mark-one-headphones.html";
+    window.location.href = "product-xx99-mark-one-headphones.html";
 })
 
 zx7ProductEl.addEventListener('click', () => {
-    window.location.href = "/product-zx7-speaker.html";
+    window.location.href = "product-zx7-speaker.html";
 })
