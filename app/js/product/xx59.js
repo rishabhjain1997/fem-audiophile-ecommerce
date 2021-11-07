@@ -3,13 +3,13 @@ const mark1ProductEl = document.querySelector(".p-recommended__xx99-mark-one but
 const zx9ProductEl = document.querySelector(".p-recommended__zx9 button.button-1");
 
 mark2ProductEl.addEventListener('click', () => {
-    window.location.href = "/product-xx99-mark-two-headphones.html";
+    window.location.href = "product-xx99-mark-two-headphones.html";
 })
 
 mark1ProductEl.addEventListener('click', () => {
-    window.location.href = "/product-xx99-mark-one-headphones.html";
+    window.location.href = "product-xx99-mark-one-headphones.html";
 })
 
 zx9ProductEl.addEventListener('click', () => {
-    window.location.href = "/product-zx9-speaker.html";
+    window.location.href = "product-zx9-speaker.html";
 })
