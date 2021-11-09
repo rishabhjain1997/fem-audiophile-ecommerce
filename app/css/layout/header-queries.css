@@ -31,6 +31,26 @@
         left: 40px;
         right: 40px;
     }
+    /* MENU OVERLAY */
+    /* SHOP */
+    .header--menu {
+        top: 89px;
+        padding: 148px 0 96px 0;
+    }
+    .header--menu .container,
+    .header--menu {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .menu--card {
+        flex-grow: 1;
+        margin-left: 10px;
+        margin-bottom: 0;
+    }
+    .menu--card:first-of-type {
+        margin-left: 0;
+    }
 }
 
 
