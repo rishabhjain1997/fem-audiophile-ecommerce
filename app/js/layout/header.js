@@ -4,6 +4,21 @@ const overlayElement = document.querySelector('.overlay')
 const bodyElement = document.querySelector('body')
 const header = document.querySelector('.header')
 const sticky = header.offsetTop;
+const headphonesShopEl = document.querySelector(".header--menu .container .menu--headphones");
+const speakersShopEl = document.querySelector(".header--menu .container .menu--speakers");
+const earphonesShopEl = document.querySelector(".header--menu .container .menu--earphones");
+
+headphonesShopEl.addEventListener('click', () => {
+    window.location.href = "headphones.html";
+})
+
+speakersShopEl.addEventListener('click', () => {
+    window.location.href = "speakers.html";
+})
+
+earphonesShopEl.addEventListener('click', () => {
+    window.location.href = "earphones.html";
+})
 
 
 hamburgerElement.addEventListener('click',

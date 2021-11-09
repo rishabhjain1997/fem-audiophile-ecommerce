@@ -23,8 +23,8 @@
 </head>
 
 <body>
-    <header>
-        <div class="container">
+    <header class='header'>
+        <div class="container ">
             <button class='header--hamburger'><img src="assets/shared/tablet/icon-hamburger.svg" alt="Hamburger Menu"></button>
             <img id='header--logo' src="assets/shared/desktop/logo.svg" alt="Logo">
             <nav class='header--nav-main'>
@@ -35,6 +35,27 @@
             </nav>
             <button id='header--cart'><img src="assets/shared/desktop/icon-cart.svg" alt="Cart"></button>
         </div>
+        <div class="overlay-and-header">
+            <div class='overlay'></div>
+            <div class='header--menu'>
+                <div class="container">
+                    <div class="menu--card menu--headphones">
+                        <p class="menu--title">Headphones</p>
+                        <button class="button-3">Shop</button>
+                    </div>
+                    <div class="menu--card menu--speakers">
+                        <p class="menu--title">Speakers</p>
+                        <button class="button-3">Shop</button>
+                    </div>
+                    <div class="menu--card menu--earphones">
+                        <p class="menu--title">Earphones</p>
+                        <button class="button-3">Shop</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
     </header>
     <section class="product-title">
         <h2>Earphones</h2>
@@ -108,6 +129,7 @@
     </footer>
 
     <script src='app/js/layout/shop.js'></script>
+    <script type='module' src='app/js/layout/header.js'></script>
     <script src='app/js/category/earphones.js'></script>
 
 </body>
